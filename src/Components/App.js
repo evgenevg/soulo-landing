@@ -4,9 +4,9 @@ import Background1 from "../images/1.JPG";
 import Background2 from "../images/2.JPG";
 import Background3 from "../images/3.JPG";
 
-var base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
-  "appWcaRixzmd3j2m1"
-);
+var base = new Airtable({
+  apiKey: process.env.REACT_APP_AIRTABLE_API_KEY
+}).base("appWcaRixzmd3j2m1");
 
 const UserHint = ({ hintText }) => (
   <p className="f3-l f5-m f5-s lh-copy mb5 sharp text-color">{hintText}</p>
