@@ -146,9 +146,9 @@ class App extends Component {
         </div>
         <div className="vh-100 dt w-100 tc cover section-color sharp">
           {/* Fifth Page */}
-          <div className="dtc v-mid cover ph4-m ph5-l">
+          <div className="dtc v-mid cover">
             <input
-              className="input f1-l f3-s f3-m"
+              className="input f1-l f2-m"
               placeholder="enter your email"
               onChange={this.handleChange}
               onKeyPress={this.handleKeyPress}

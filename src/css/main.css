@@ -30,13 +30,6 @@
   opacity: 0.5;
 }
 
-input,
-textarea {
-  -webkit-font-smoothing: antialiased;
-  font: inherit;
-  color: #fff;
-}
-
 /* Colors */
 
 .section-color {
