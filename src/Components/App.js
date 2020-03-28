@@ -84,7 +84,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="vh-100 dt w-100 tc bg-dark-gray white cover">
+        <div className="vh-100 dt w-100 tc white cover">
           {/* First Page */}
           <div
             className="dtc v-mid cover ph3 ph4-m ph5-l"
@@ -96,7 +96,7 @@ class App extends Component {
             <h1 className="f1 f-headline-l white sharp">soulo</h1>
           </div>
         </div>
-        <div className="vh-100 dt w-100 tc bg-orange white cover">
+        <div className="vh-100 dt w-100 tc white cover">
           {/* Second Page */}
           <div
             className="dtc v-mid cover ph3 ph4-m ph5-l"
@@ -133,7 +133,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="vh-100 dt w-100 tc bg-dark-gray white cover">
+        <div className="vh-100 dt w-100 tc white cover">
           {/* Fourth Page */}
           <div
             className="dtc v-mid cover ph3 ph4-m ph5-l"
