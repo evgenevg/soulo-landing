@@ -18,7 +18,7 @@ class App extends Component {
     this.textInput = React.createRef();
     this.state = {
       searchTerm: "",
-      hintText: "subscribe to learn more"
+      hintText: "sign up for early access"
     };
   }
 
@@ -28,13 +28,13 @@ class App extends Component {
       ...prevState,
       searchTerm: value,
       hintText:
-        value.length > 0 ? `hit enter to subscribe` : "subscribe to learn more"
+        value.length > 0 ? `hit enter to sign up` : "sign up for early access"
     }));
   };
 
   handleKeyPress = event => {
     const { value } = event.target;
-    if (value.length > 2 && event.key === "Enter") {
+    if (value.length > 0 && event.key === "Enter") {
       this.validateEmail(value);
     }
   };
@@ -46,12 +46,12 @@ class App extends Component {
       this.submitEmail(searchTerm);
       this.setState((prevState, props) => ({
         ...prevState,
-        hintText: "you’re subscribed"
+        hintText: "you’ve signed up"
       }));
     } else {
       this.setState((prevState, props) => ({
         ...prevState,
-        hintText: "try again with a real email?"
+        hintText: "we need a real email to sign you up"
       }));
     }
   };
