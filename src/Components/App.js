@@ -112,23 +112,23 @@ class App extends Component {
           <div className="dtc v-mid cover ph3 ph4-m ph5-l pa4">
             <div className="w-60-l w-100">
               <h2 className="f1-l f2-m lh-title tl sharp text-color">
-                who <b className="text-highlight"> true you</b> are ?
+                who <b className="text-highlight"> you</b> are ?
               </h2>
               <p className="f4-l f5-m lh-copy tl mb4 surt text-color">
-                In today's world we are so focused on crafting perfect online
+                In today's world, we are so focused on crafting perfect online
                 images of ourselves that we forgot who we really are.
               </p>
               <p className="f4-l f5-m lh-copy tl mb4 surt text-color">
-                How many times we did not share a photo of something beautiful
-                because it would not get enough likes? How many times we did not
-                tweet a peculiar thought just because it might be misunderstood?
-                How many more times would we self-sensor artifacts of our
-                precious moments to pretend someone who we are not?
+                How many times did you not share a photo you loved because it
+                would not get enough likes? How many times did you not tweet a
+                curious thought just because it might be misinterpreted? How
+                many more times would you self-censor artifacts of your precious
+                moments to stop worrying what other people might think.
               </p>
               <p className="f4-l f5-m lh-copy tl mb4 surt text-color">
-                Soulo is a social app for one. A safe space where you can be
-                true you and no one is there to judge. Everything you post is
-                private forever. Stop pretending, start living.
+                Soulo is a safe space where you can be true you and no one is
+                there to judge. Every memory you share is private forever. Stop
+                pretending, start living.
               </p>
             </div>
           </div>
